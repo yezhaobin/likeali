@@ -24,3 +24,223 @@ Stack trace:
 #1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
 #2 D:\wamp\www\buyang\index.php(13): CApplication->run()
 #3 {main} REQUEST_URI=/index.php/products
+2011/05/10 07:35:31 [error] [php] Undefined index: lang (D:\wamp\www\buyang\protected\components\Controller.php:26)
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#1 D:\wamp\www\buyang\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/page?view=about
+in D:\wamp\www\buyang\protected\components\Controller.php (26)
+in D:\wamp\www\buyang\index.php (13)
+2011/05/10 07:38:59 [error] [php] Undefined variable: _G (D:\wamp\www\buyang\protected\components\Controller.php:27)
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#1 D:\wamp\www\buyang\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/page?view=about&lang=zh_cn
+in D:\wamp\www\buyang\protected\components\Controller.php (27)
+in D:\wamp\www\buyang\index.php (13)
+2011/05/10 08:02:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/index')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/index
+2011/05/10 08:02:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/index')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/index
+2011/05/10 08:03:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/index')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/index
+2011/05/10 08:03:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/index')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/index
+2011/05/10 08:06:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/index')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/index
+2011/05/10 08:06:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/brands".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/brands')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/brands
+2011/05/10 08:07:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/agents".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/agents')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/agents?view=about
+2011/05/10 08:07:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/agents".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/agents')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/agents?view=about
+2011/05/10 08:07:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/brands".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/brands')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/brands
+2011/05/10 08:07:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/agents".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/agents')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/agents?view=about
+2011/05/10 08:07:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/brands".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/brands')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/brands
+2011/05/10 08:07:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/brands".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/brands')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/brands
+2011/05/10 08:09:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/brands".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/brands')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/brands
+2011/05/10 08:09:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/agents".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/agents')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/agents
+2011/05/10 08:10:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/agents".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/agents')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/agents
+2011/05/10 08:10:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/brands".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/brands')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/brands
+2011/05/10 08:10:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/logout".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/logout')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/logout
+2011/05/10 08:10:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/brands".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/brands')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/brands
+2011/05/10 08:10:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/brands".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/brands')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/brands
+2011/05/10 08:10:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/brands".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/brands')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/brands
+2011/05/10 08:10:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/agents".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/agents')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/agents
+2011/05/10 08:10:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/accounts".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/accounts')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/accounts
+2011/05/10 08:10:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/logout".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/logout')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/logout
+2011/05/10 08:10:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/brands".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/brands')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/brands
+2011/05/10 08:10:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/brands".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/brands')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/brands
+2011/05/10 08:10:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/brands".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/brands')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/brands
+2011/05/10 08:10:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/agents".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/agents')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/agents
+2011/05/10 08:10:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/accounts".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/accounts')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/accounts
+2011/05/10 08:10:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/logout".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/logout')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/logout
+2011/05/10 08:10:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/brands".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/brands')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/admin/brands
+2011/05/10 08:24:42 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "accounts".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CController.php:875
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CController.php(779): CController->renderPartial('accounts', NULL, true)
+#1 D:\wamp\www\buyang\protected\controllers\AdminController.php(48): CController->render('accounts')
+#2 D:\wamp\www\yii-1.1.7.r3135\framework\web\actions\CInlineAction.php(50): AdminController->actionAccounts()
+#3 D:\wamp\www\yii-1.1.7.r3135\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii-1.1.7.r3135\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii-1.1.7.r3135\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(328): CController->run('accounts')
+#7 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/accounts')
+#8 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/index.php/admin/accounts
+2011/05/10 08:29:33 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "agents".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CController.php:875
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CController.php(779): CController->renderPartial('agents', NULL, true)
+#1 D:\wamp\www\buyang\protected\controllers\AdminController.php(43): CController->render('agents')
+#2 D:\wamp\www\yii-1.1.7.r3135\framework\web\actions\CInlineAction.php(50): AdminController->actionAgents()
+#3 D:\wamp\www\yii-1.1.7.r3135\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii-1.1.7.r3135\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii-1.1.7.r3135\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(328): CController->run('agents')
+#7 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/agents')
+#8 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/index.php/admin/agents
