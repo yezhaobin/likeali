@@ -1,0 +1,26 @@
+2011/05/10 03:47:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('gii')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php?r=gii
+2011/05/10 03:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('gii')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/gii
+2011/05/10 03:48:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('gii')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/gii
+2011/05/10 03:51:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'buyang.products' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `products`.
+in D:\wamp\www\buyang\index.php (13)
+2011/05/10 04:01:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "products".' in D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wamp\www\yii-1.1.7.r3135\framework\web\CWebApplication.php(121): CWebApplication->runController('products')
+#1 D:\wamp\www\yii-1.1.7.r3135\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wamp\www\buyang\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/products
